@@ -13,3 +13,5 @@
 #      scale: 3
   networks:
     net1:
+#   jakby co, to tutaj jest źródło odnośnie dockera
+#      https://thepracticaldeveloper.com/2017/12/11/dockerize-spring-boot/
