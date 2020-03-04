@@ -1,0 +1,15 @@
+  version: '2.2'
+  services:
+    miko:
+      build:
+        context: ./
+#        dockerfile: Dockerfile
+        dockerfile: Dockerfile-build
+      image: miko_obraz
+      ports:
+        - 8081
+      networks:
+        - net1
+#      scale: 3
+  networks:
+    net1:
